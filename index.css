@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.767);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 15px;
+    padding: 10px 10px;
+}
+.weather{
+    background-image: linear-gradient(to top ,rgba(27, 136, 187, 0.76), rgba(113, 236, 210, 0.774));
+    width: 25rem;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+    
+}
+.header input{
+    height: 2rem;
+    width: 15.5rem;
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+    outline: none;
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+.header button{
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+.header button img{
+    width: 30px;
+    height: 35px;
+}
+input:focus{
+    background-color: whitesmoke;
+}
+.main{
+    margin-top: 10px;
+    display: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.wind p img{
+width: 50px;
+}
+.hum{
+    margin-top: 8px;
+    margin-left: 2px;
+}
+.sp{
+    margin-top: 8px;
+    margin-left: 2px;
+}
+.wind{
+    display: flex;
+    margin-top: 20px;
+    bottom: 50px;
+    justify-content: space-around;
+    
+}
+.wind div:first-child{
+   display: flex;
+
+}
+.wind .second{
+    display: flex;
+}
+p{
+    color: aliceblue;
+    margin-top: 20px;
+}
+.temp{
+    font-size: 50px;
+}
+.city{
+    font-size: 30px;
+}
+h1,h2,h4{
+    color: antiquewhite;
+}
